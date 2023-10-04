@@ -2,4 +2,27 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: beige;
+}
+
+
+.usersDisplay {
+  color: darkslategray;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.inputForm {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.inputForm input {
+  font-size: 1.5rem;
+}
+
+.inputForm button {
+  font-size: 1.5rem;
 }
